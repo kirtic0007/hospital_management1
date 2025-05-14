@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LifeCare Hospital</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #0d1316;
+      padding: 1rem;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('/images/team.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services, .testimonials {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #10171a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .btn {
+      background-color: #171c22;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #142429;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>LifeCare Hospital</strong></div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About Us</a>
+      <a href="/contact">Contact Us</a>
+      
+      <a href="/login">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Your Health, Our Priority</h1>
+    <p>We offer world-class medical care and personalized treatment for every patient.</p>
+    <a href="/appointment" class="btn">Book an Appointment</a>
+
+  </section>
+
+  <section class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Emergency Care</h3>
+        <p>24/7 emergency services with expert medical professionals.</p>
+      </div>
+      <div class="card">
+        <h3>Cardiology</h3>
+        <p>Advanced heart care and surgical facilities.</p>
+      </div>
+      <div class="card">
+        <h3>Pediatrics</h3>
+        <p>Dedicated care for your child’s health and well-being.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>What Our Patients Say</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"The doctors are very supportive and the facilities are top-notch!"</p>
+        <strong>- Rajesh S.</strong>
+      </div>
+      <div class="card">
+        <p>"Clean, professional, and compassionate. Highly recommended."</p>
+        <strong>- Priya D.</strong>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LifeCare Hospital | Committed to Care & Compassion</p>
+  </footer>
+</body>
+</html>
+

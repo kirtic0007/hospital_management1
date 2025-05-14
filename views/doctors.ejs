@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <%- include('partials/head') %>
+  <link rel="stylesheet" href="/styles/doctors.css"> <!-- Optional for specific doctor page styling -->
+</head>
+<body>
+  <%- include('partials/navbar') %> <!-- Navbar inclusion -->
+
+  <section class="doctor-banner">
+    <div class="banner-content">
+      <h1>Meet Our Expert Doctors</h1>
+      <p>We have a team of dedicated, compassionate doctors ready to provide you with the best healthcare services.</p>
+    </div>
+  </section>
+
+  <section class="doctor-cards">
+    <h2>Our Experienced Doctors</h2>
+    <div class="doctor-card-container">
+      <% doctors.forEach(doctor => { %>
+        <div class="doctor-card">
+          <img src="<%= doctor.image || '/default-avatar.jpg' %>" alt="Doctor's Image">
+          <div class="doctor-info">
+            <h3><%= doctor.name %></h3>
+            <p><strong>Specialization:</strong> <%= doctor.specialization %></p>
+            <p><strong>Experience:</strong> <%= doctor.experience %> years</p>
+            <p><strong>Location:</strong> <%= doctor.location %></p>
+            <p><%= doctor.bio %></p>
+            <a href="/appointment?doctor=<%= doctor._id %>" class="appointment-btn">Book an Appointment</a>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LifeCare Hospital | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
+

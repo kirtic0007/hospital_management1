@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Sharma",
+    "email": "priya.sharma@example.com",
+    "password": "hashed_password_1",
+    "role": "patient",
+    "age": 29,
+    "gender": "Female",
+    "phone": "+91-9876543210"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Rajeev Mehta",
+    "email": "dr.rajeev@example.com",
+    "password": "hashed_password_2",
+    "role": "doctor",
+    "specialization": "Cardiology",
+    "phone": "+91-9876501234",
+    "experience": "10 years"
+  },
+  {
+    "id": 3,
+    "name": "Ankush Verma",
+    "email": "ankush.admin@example.com",
+    "password": "hashed_password_3",
+    "role": "admin",
+    "phone": "+91-9998877665"
+  },
+  {
+    "id": 4,
+    "name": "Meena Gupta",
+    "email": "meena.gupta@example.com",
+    "password": "hashed_password_4",
+    "role": "patient",
+    "age": 40,
+    "gender": "Female",
+    "phone": "+91-8844332211"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Nikhil Singh",
+    "email": "dr.nikhil@example.com",
+    "password": "hashed_password_5",
+    "role": "doctor",
+    "specialization": "Dermatology",
+    "phone": "+91-7766554433",
+    "experience": "7 years"
+  }
+]
